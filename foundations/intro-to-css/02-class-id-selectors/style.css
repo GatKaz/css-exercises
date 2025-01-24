@@ -1,0 +1,19 @@
+.pgrph {
+    /* HSL values need spacing between commas */
+    background-color: hsl(0, 60%, 70%);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.fontresize {
+    font-size: 24px;
+}
+
+#divid2 {
+    font-size: 36px;
+    color: rgb(0, 0, 255);
+}
+
+#divid4 {
+    background-color: hsl(120, 60%, 60%);
+    font-weight: bold;
+}

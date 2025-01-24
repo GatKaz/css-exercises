@@ -2,7 +2,7 @@ div {
     background-color: red;
     color: white;
     /* Include some fonts, starting with the one we intend to use, but including more common ones after as fallback*/
-    font-family: "hack", "FreeSerif", serif;
+    font-family: freeserif, serif;
     /* Dont need quotes to specify font size, just the value and px (pixels) */
     font-size: 32px;
     text-align: center;

@@ -1,0 +1,15 @@
+.el1
+.el2 {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.el1 {
+    /* I didn't use any hex values on the last project so here I will atone for the sin of not knowing the exact color I want! */
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.el2 {
+    background-color: yellow;
+}

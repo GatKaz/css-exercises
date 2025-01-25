@@ -1,0 +1,8 @@
+/* we're gonna go the extra mile and use a type and class combinator */
+
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,3 +1,4 @@
+/* should be fine, safe to ignore. */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,16 +9,18 @@ body {
   font-weight: 800;
 }
 
+/* Switch .para and .small-para so .small-para is applied last to shrink our bold paragraph. */
+.para {
+  font-size: 22px;
+}
+
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+/* Use the included button-confirm ID to force a green button. A confirm button usually has a pretty unified look so formatting it this way makes it less prone to specificity order */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +32,8 @@ body {
   font-size: 20px;
 }
 
-.child {
+/* .text.child chain is also good. Neither really stand out as the text class is reused for a very similar div element right above. but who's to say the page maintainer wouldn't add another element with the same text child classes? */
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
